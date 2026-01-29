@@ -1,0 +1,21 @@
+{
+    "name": "dnlsr/cachesystem",
+    "description": "кэширование данных",
+    "type": "library",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cache\\": "src/Cache/",
+            "Config\\": "src/Config/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dnlsr",
+            "email": "dnlsr@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
